@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var nilai=0;
+        const soal1 ={
+        "soal":"Proses pencernaan ada berapa?",
+        "jawaban":"2"
+    };
+    var jawaban=prompt(soal1.soal+"Jawabnya?");
+    if(jawaban.toLowerCase() == soal1.jawaban){
+        nilai++;
+    }
+    const soal2 ={
+        "soal":"Vitamin yang larut dalam lemak adalah?",
+        "jawaban":"a, d, e, k"
+    };
+    jawaban=prompt(soal2.soal+"Jawabnya?");
+    if(jawaban.toLowerCase() == soal2.jawaban){
+        nilai++;
+    }
+    const soal3 ={
+        "soal":"Penyakit karena kelebihan lemak adalah?",
+        "jawaban":"obesitas"
+    };
+    jawaban=prompt(soal3.soal+"Jawabnya?");
+    if(jawaban.toLowerCase() == soal3.jawaban){
+        nilai++;
+    }
+    const soal4 ={
+        "soal":"Presentase air di dalam tubuh manusia adalah?",
+        "jawaban":"72"
+    };
+    jawaban=prompt(soal4.soal+"Jawabnya?");
+    if(jawaban.toLowerCase() == soal4.jawaban){
+        nilai++;
+    }
+    const soal5 ={
+        "soal":"Lambang mineral besi adalah?",
+        "jawaban":"fe"
+    };
+    jawaban=prompt(soal5.soal+"Jawabnya?");
+    if(jawaban.toLowerCase() == soal5.jawaban){
+        nilai++;
+    }
+    const soal6 ={
+        "soal":"Gerak peristaltik berada di bagian?",
+        "jawaban":"mulut"
+    };
+    jawaban=prompt(soal6.soal+"Jawabnya?");
+    if(jawaban.toLowerCase() == soal6.jawaban){
+        nilai++;
+    }
+    const soal7 ={
+        "soal":"Bagian alat pencernaan tambahan yang berfungsi menetralisir racun adalah?",
+        "jawaban":"hati"
+    };
+    jawaban=prompt(soal7.soal+" Jawabnya?");
+    if(jawaban.toLowerCase() == soal7.jawaban){
+        nilai++;
+    }
+    const soal8 ={
+        "soal":"Jumlah enzim di pankreas ada berapa?",
+        "jawaban":"3"
+    };
+    jawaban=prompt(soal8.soal+"Jawabnya?");
+    if(jawaban.toLowerCase() == soal8.jawaban){
+        nilai++;
+    }
+    const soal9 ={
+        "soal":"Panjang usus halus adalah?",
+        "jawaban":"8,25"
+    };
+    jawaban=prompt(soal9.soal+"Jawabnya?");
+    if(jawaban == soal9.jawaban){
+        nilai++;
+    }
+    const soal10 ={
+        "soal":"Jumlah kolon pada usus besar adalah?",
+        "jawaban":"3"
+    };
+    jawaban=prompt(soal10.soal+"Jawabnya?");
+    if(jawaban == soal10.jawaban){
+        nilai++;
+    }
+    alert("Nilai kamu : "+ nilai);
+    //Sangat baik = > 90
+    //Baik = 80 < nilai < 90
+    //cukup = 75 < nilai < 80
+</script>
+    
+</body>
+</html>
