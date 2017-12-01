@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+    var d1 = prompt ('Berapa panjang persegi panjang nya? (dalam bentuk cm)')
+    var d2 = prompt ('Berapa lebar persegi panjang nya? (dalam bentuk cm)')
+    alert('keliling persegi panjang nya adalah '+ (d1+d2)*2 + "cm") 
+    </script>
+    
+</body>
+</html>
